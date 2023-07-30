@@ -14,7 +14,7 @@
 - User: Can create events and view information fields created by doctors.
 
 
-#SETUP
+## SETUP
 
 
 Download/clone the frontend file from this repository.
