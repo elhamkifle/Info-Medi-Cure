@@ -1,0 +1,57 @@
+header{
+    background-color: rgb(17, 59, 65);
+    position: sticky;
+    top: 0;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0;
+    padding-top: 0;
+    color: rgb(200, 225, 234);
+    margin-bottom: 30px;
+
+}
+
+.body{
+    background-color: rgb(17, 59, 65);
+}
+
+h2{
+    color: rgb(130, 160, 171);
+}  
+
+.blurp{
+    color: rgb(200, 225, 234);
+    font-size: larger;
+    text-align: center;
+    padding-top: 50%; 
+    line-height: 35px;
+}
+
+.logo{
+    background-color: white;
+}
+ 
+        
+form{
+    border-radius: 10px;
+    padding: 1% 5%;
+    background-color: white;
+    border: none;
+    margin-bottom: 10%;
+}
+
+input[name="name"] {
+    height: 2rem;
+  }
+input[name="password"] {
+    height: 2rem;
+  }
+select[name="role"] {
+    height: 2.5rem;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    color: black;
+}

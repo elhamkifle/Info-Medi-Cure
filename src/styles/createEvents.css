@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+}
+h2{
+  color: rgb(255, 255, 255);
+}
+
+  
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 50px 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+input[type="submit"] {
+  background-color: rgb(44, 87, 101);
+  height: 3rem;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+input[name="name"] {
+  height: 3rem;
+}
+input[name="description"] {
+  height: 4rem;
+}
+input[name="date"] {
+  height: 2rem;
+}
+input[name="time"] {
+  height: 2rem;
+}
+button.cancel{
+  margin-top: 5px;
+  color: white;
+}

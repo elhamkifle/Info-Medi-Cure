@@ -1,0 +1,70 @@
+header{
+    background-color: rgb(17, 59, 65);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0;
+    padding-top: 0;
+    color: rgb(200, 225, 234);
+    margin-bottom: 30px;
+
+}
+body{
+    background-color: white;
+}
+
+button.profile{
+    background-image: url('../pages/profile.jpg');
+    background-size: cover;
+    padding: 10%;
+    padding-left: 15%;
+    margin-left: 5%;
+    border: none;
+}
+
+h1{
+    margin-left: 25%;
+    display: inline-block;
+}
+nav ul {
+    list-style: none;
+    margin-top: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+header nav ul li a:hover{
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(17, 59, 65);
+    padding: 20px 20px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(200, 225, 234);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+div.buttons{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+    margin-left: 15%;
+    margin-top: 15px;
+}

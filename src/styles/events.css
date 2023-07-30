@@ -1,0 +1,72 @@
+body{
+    background-color: white;
+}
+
+header{
+    background-color: rgb(17, 59, 65);
+    position: sticky;
+    top: 0;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0;
+    padding-top: 0;
+    color: rgb(200, 225, 234);
+    margin-bottom: 30px;
+
+}
+
+
+nav ul {
+    list-style: none;
+    margin-top: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(200, 225, 234);
+}
+
+nav ul li:hover{
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+}
+
+div.event-card-item{
+    display: inline-block;
+    border: solid;
+    border-color: rgb(0, 81, 108);
+    padding-top: 12%;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.event-remove-btn{
+    background-color: rgb(75, 4, 4);
+    color: aliceblue;
+    padding: 7% 5%;
+    border-radius: 5px;
+}
+
+.event-create-btn{
+    margin-left: 80%;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(17, 59, 65);
+    color: rgb(200, 225, 234) ;
+}
+
+.event-create-btn:hover{
+    cursor: pointer;
+}
